@@ -1,0 +1,6 @@
+framework module Pods_instagram_obj_c {
+  umbrella header "Pods-instagram-obj-c-umbrella.h"
+
+  export *
+  module * { export * }
+}
