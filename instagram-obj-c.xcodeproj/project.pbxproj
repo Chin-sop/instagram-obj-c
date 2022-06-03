@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		CF2D926A2848895300AD070F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2D92692848895300AD070F /* AppDelegate.m */; };
 		CF2D926D2848895300AD070F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2D926C2848895300AD070F /* SceneDelegate.m */; };
-		CF2D92702848895300AD070F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2D926F2848895300AD070F /* ViewController.m */; };
 		CF2D92732848895300AD070F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2D92712848895300AD070F /* Main.storyboard */; };
 		CF2D92752848895400AD070F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2D92742848895400AD070F /* Assets.xcassets */; };
 		CF2D92782848895400AD070F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2D92762848895400AD070F /* LaunchScreen.storyboard */; };
 		CF2D927B2848895400AD070F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2D927A2848895400AD070F /* main.m */; };
+		CF8E74B9284AC08B00AB498E /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8E74B8284AC08B00AB498E /* Keys.plist */; };
+		CF8E74BC284AC98100AB498E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8E74BB284AC98100AB498E /* LoginViewController.m */; };
 		E893E0C1B67ED23AEFEF9ADA /* Pods_instagram_obj_c.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890B24D0EF0FEAFEC4D35C6D /* Pods_instagram_obj_c.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,13 +26,14 @@
 		CF2D92692848895300AD070F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF2D926B2848895300AD070F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		CF2D926C2848895300AD070F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CF2D926E2848895300AD070F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF2D926F2848895300AD070F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF2D92722848895300AD070F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF2D92742848895400AD070F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2D92772848895400AD070F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2D92792848895400AD070F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2D927A2848895400AD070F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF8E74B8284AC08B00AB498E /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		CF8E74BA284AC98100AB498E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CF8E74BB284AC98100AB498E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		DEDD3BD457BE6F8BF74B9F71 /* Pods-instagram-obj-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram-obj-c.release.xcconfig"; path = "Target Support Files/Pods-instagram-obj-c/Pods-instagram-obj-c.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +63,6 @@
 				A98CF641EA3DE5276D5557D3 /* Pods-instagram-obj-c.debug.xcconfig */,
 				DEDD3BD457BE6F8BF74B9F71 /* Pods-instagram-obj-c.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,15 +91,32 @@
 				CF2D92692848895300AD070F /* AppDelegate.m */,
 				CF2D926B2848895300AD070F /* SceneDelegate.h */,
 				CF2D926C2848895300AD070F /* SceneDelegate.m */,
-				CF2D926E2848895300AD070F /* ViewController.h */,
-				CF2D926F2848895300AD070F /* ViewController.m */,
+				CF8E74B7284ABFB500AB498E /* Models */,
+				CF8E74B6284ABF9F00AB498E /* View Controller */,
 				CF2D92712848895300AD070F /* Main.storyboard */,
 				CF2D92742848895400AD070F /* Assets.xcassets */,
 				CF2D92762848895400AD070F /* LaunchScreen.storyboard */,
 				CF2D92792848895400AD070F /* Info.plist */,
 				CF2D927A2848895400AD070F /* main.m */,
+				CF8E74B8284AC08B00AB498E /* Keys.plist */,
 			);
 			path = "instagram-obj-c";
+			sourceTree = "<group>";
+		};
+		CF8E74B6284ABF9F00AB498E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF8E74BA284AC98100AB498E /* LoginViewController.h */,
+				CF8E74BB284AC98100AB498E /* LoginViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		CF8E74B7284ABFB500AB498E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8E74B9284AC08B00AB498E /* Keys.plist in Resources */,
 				CF2D92782848895400AD070F /* LaunchScreen.storyboard in Resources */,
 				CF2D92752848895400AD070F /* Assets.xcassets in Resources */,
 				CF2D92732848895300AD070F /* Main.storyboard in Resources */,
@@ -215,10 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2D92702848895300AD070F /* ViewController.m in Sources */,
 				CF2D926A2848895300AD070F /* AppDelegate.m in Sources */,
 				CF2D927B2848895400AD070F /* main.m in Sources */,
 				CF2D926D2848895300AD070F /* SceneDelegate.m in Sources */,
+				CF8E74BC284AC98100AB498E /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
