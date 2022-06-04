@@ -16,6 +16,7 @@
 		CF8E74B9284AC08B00AB498E /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8E74B8284AC08B00AB498E /* Keys.plist */; };
 		CF8E74BC284AC98100AB498E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8E74BB284AC98100AB498E /* LoginViewController.m */; };
 		CF932280284AE60A003680AA /* HomeTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF93227F284AE60A003680AA /* HomeTimelineViewController.m */; };
+		CF932283284AEDCD003680AA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF932282284AEDCD003680AA /* ProfileViewController.m */; };
 		E893E0C1B67ED23AEFEF9ADA /* Pods_instagram_obj_c.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890B24D0EF0FEAFEC4D35C6D /* Pods_instagram_obj_c.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		CF8E74BB284AC98100AB498E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CF93227E284AE60A003680AA /* HomeTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTimelineViewController.h; sourceTree = "<group>"; };
 		CF93227F284AE60A003680AA /* HomeTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTimelineViewController.m; sourceTree = "<group>"; };
+		CF932281284AEDCD003680AA /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CF932282284AEDCD003680AA /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		DEDD3BD457BE6F8BF74B9F71 /* Pods-instagram-obj-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram-obj-c.release.xcconfig"; path = "Target Support Files/Pods-instagram-obj-c/Pods-instagram-obj-c.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +116,8 @@
 				CF8E74BB284AC98100AB498E /* LoginViewController.m */,
 				CF93227E284AE60A003680AA /* HomeTimelineViewController.h */,
 				CF93227F284AE60A003680AA /* HomeTimelineViewController.m */,
+				CF932281284AEDCD003680AA /* ProfileViewController.h */,
+				CF932282284AEDCD003680AA /* ProfileViewController.m */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				CF2D927B2848895400AD070F /* main.m in Sources */,
 				CF932280284AE60A003680AA /* HomeTimelineViewController.m in Sources */,
 				CF2D926D2848895300AD070F /* SceneDelegate.m in Sources */,
+				CF932283284AEDCD003680AA /* ProfileViewController.m in Sources */,
 				CF8E74BC284AC98100AB498E /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,7 +34,6 @@
     
     // set user properties
     newUser.username = self.usernameTextField.text;
-    //newUser.email = self.emailField.text;
     newUser.password = self.passwordTextField.text;
     
     // call sign up function on the object
