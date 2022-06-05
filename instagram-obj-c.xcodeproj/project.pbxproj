@@ -17,6 +17,9 @@
 		CF8E74BC284AC98100AB498E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8E74BB284AC98100AB498E /* LoginViewController.m */; };
 		CF932280284AE60A003680AA /* HomeTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF93227F284AE60A003680AA /* HomeTimelineViewController.m */; };
 		CF932283284AEDCD003680AA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF932282284AEDCD003680AA /* ProfileViewController.m */; };
+		CF932286284CDD81003680AA /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = CF932285284CDD81003680AA /* Post.m */; };
+		CF932289284CDE50003680AA /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF932288284CDE50003680AA /* ComposeViewController.m */; };
+		CF93228C284CE11A003680AA /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF93228B284CE11A003680AA /* PostCell.m */; };
 		E893E0C1B67ED23AEFEF9ADA /* Pods_instagram_obj_c.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890B24D0EF0FEAFEC4D35C6D /* Pods_instagram_obj_c.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,12 @@
 		CF93227F284AE60A003680AA /* HomeTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTimelineViewController.m; sourceTree = "<group>"; };
 		CF932281284AEDCD003680AA /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		CF932282284AEDCD003680AA /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		CF932284284CDD81003680AA /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		CF932285284CDD81003680AA /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		CF932287284CDE50003680AA /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		CF932288284CDE50003680AA /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		CF93228A284CE11A003680AA /* PostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		CF93228B284CE11A003680AA /* PostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
 		DEDD3BD457BE6F8BF74B9F71 /* Pods-instagram-obj-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram-obj-c.release.xcconfig"; path = "Target Support Files/Pods-instagram-obj-c/Pods-instagram-obj-c.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +127,8 @@
 				CF93227F284AE60A003680AA /* HomeTimelineViewController.m */,
 				CF932281284AEDCD003680AA /* ProfileViewController.h */,
 				CF932282284AEDCD003680AA /* ProfileViewController.m */,
+				CF932287284CDE50003680AA /* ComposeViewController.h */,
+				CF932288284CDE50003680AA /* ComposeViewController.m */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -125,6 +136,10 @@
 		CF8E74B7284ABFB500AB498E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CF932284284CDD81003680AA /* Post.h */,
+				CF932285284CDD81003680AA /* Post.m */,
+				CF93228A284CE11A003680AA /* PostCell.h */,
+				CF93228B284CE11A003680AA /* PostCell.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,7 +264,10 @@
 				CF932280284AE60A003680AA /* HomeTimelineViewController.m in Sources */,
 				CF2D926D2848895300AD070F /* SceneDelegate.m in Sources */,
 				CF932283284AEDCD003680AA /* ProfileViewController.m in Sources */,
+				CF93228C284CE11A003680AA /* PostCell.m in Sources */,
 				CF8E74BC284AC98100AB498E /* LoginViewController.m in Sources */,
+				CF932286284CDD81003680AA /* Post.m in Sources */,
+				CF932289284CDE50003680AA /* ComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
