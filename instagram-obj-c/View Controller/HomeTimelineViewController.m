@@ -7,11 +7,11 @@
 
 #import "HomeTimelineViewController.h"
 #import "Parse/Parse.h"
-#import "AppDelegate.h"
 #import "LoginViewController.h"
 #import "PostCell.h"
 #import "Post.h"
 #import "ComposeViewController.h"
+#import "SceneDelegate.h"
 
 @interface HomeTimelineViewController () <ComposeViewControllerDelegate, UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -33,11 +33,12 @@
             // Failure
         } else {
             // Success
-            AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+            SceneDelegate *sceneDelegate = (SceneDelegate *)self.view.window.windowScene.delegate;
+
 
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
             LoginViewController *loginViewController = [storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-            appDelegate.window.rootViewController = loginViewController;
+            sceneDelegate.window.rootViewController = loginViewController;
         }
     }];
 
